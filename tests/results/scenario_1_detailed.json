@@ -1,0 +1,14 @@
+{
+  "scenario": "Scenario 4.3.1 - DB Server Monitoring with Nftables Whitelist",
+  "timestamp": "2025-12-10T00:11:46.171139",
+  "configuration": {
+    "db_server_ip": "10.10.0.1",
+    "db_port": 5432,
+    "whitelist_ip": "10.10.0.2",
+    "namespace_db": "dbns",
+    "namespace_attacker": "attns"
+  },
+  "results": [],
+  "realtime_events_count": 0,
+  "analysis": {}
+}

@@ -1,0 +1,2 @@
+accepts_detected,accepts_expected,cpu_usage_avg,cpu_usage_max,detection_accuracy,detection_latency_ms,drop_record_completeness,drops_detected,drops_expected,execution_time_sec,memory_mb,nftables_counter_accept,nftables_counter_drop,packets_detected,packets_sent,spike_false_positive,test_case,timestamp,tool,unique_source_ips,verdict_breakdown
+150,150,0.0,0.0,100.0,0.0,0.0,500,500,44.07191872596741,0.0,150,500,18172,650,False,DB_Server_Monitoring,2025-12-09T23:55:18.877276,NFT Tracer Realtime,0,"{""ACCEPT"": 150, ""DROP"": 500}"

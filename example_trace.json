@@ -1,0 +1,115 @@
+{
+  "session": {
+    "id": "example_session",
+    "mode": "full"
+  },
+  "statistics": {
+    "total_events": 4,
+    "total_packets": 1
+  },
+  "traces": [
+    {
+      "skb_addr": "0xffff8dd9b14072e8",
+      "first_seen": 9220177888713,
+      "last_seen": 9220177894574,
+      "duration_ns": 5861,
+      "protocol": 6,
+      "protocol_name": "TCP",
+      "src_ip": "127.0.0.1",
+      "dst_ip": "127.0.0.1",
+      "src_port": 55534,
+      "dst_port": 8888,
+      "functions_path": [],
+      "unique_functions": 0,
+      "total_functions_called": 0,
+      "hook": 1,
+      "hook_name": "INPUT",
+      "final_verdict": "STOLEN",
+      "total_rules_evaluated": 4,
+      "verdict_changes": 2,
+      "important_events": [
+        {
+          "timestamp": 9220177888713,
+          "trace_type": "rule_eval",
+          "verdict": "CONTINUE",
+          "verdict_code": 10,
+          "verdict_raw": -1,
+          "rule_seq": 1,
+          "rule_handle": 4100,
+          "expr_addr": "0xffff8dd9b1407100",
+          "chain_addr": "0xffff8dd9b1400000",
+          "chain_depth": 1,
+          "cpu_id": 2,
+          "comm": "nc",
+          "hook": 1,
+          "pf": 2
+        },
+        {
+          "timestamp": 9220177889970,
+          "trace_type": "rule_eval",
+          "verdict": "CONTINUE",
+          "verdict_code": 10,
+          "verdict_raw": -1,
+          "rule_seq": 2,
+          "rule_handle": 4100,
+          "expr_addr": "0xffff8dd9b1407200",
+          "chain_addr": "0xffff8dd9b1400000",
+          "chain_depth": 1,
+          "cpu_id": 2,
+          "comm": "nc",
+          "hook": 1,
+          "pf": 2
+        },
+        {
+          "timestamp": 9220177892015,
+          "trace_type": "rule_eval",
+          "verdict": "DROP",
+          "verdict_code": 0,
+          "verdict_raw": 0,
+          "rule_seq": 3,
+          "rule_handle": 4101,
+          "expr_addr": "0xffff8dd9b1407300",
+          "chain_addr": "0xffff8dd9b1400000",
+          "chain_depth": 1,
+          "cpu_id": 2,
+          "comm": "nc",
+          "hook": 1,
+          "pf": 2
+        },
+        {
+          "timestamp": 9220177892640,
+          "trace_type": "rule_eval",
+          "verdict": "DROP",
+          "verdict_code": 0,
+          "verdict_raw": 0,
+          "rule_seq": 4,
+          "rule_handle": 4101,
+          "expr_addr": "0xffff8dd9b1407400",
+          "chain_addr": "0xffff8dd9b1400000",
+          "chain_depth": 1,
+          "cpu_id": 2,
+          "comm": "nc",
+          "hook": 1,
+          "pf": 2
+        },
+        {
+          "timestamp": 9220177894574,
+          "trace_type": "chain_exit",
+          "verdict": "STOLEN",
+          "verdict_code": 2,
+          "verdict_raw": 2,
+          "rule_seq": 4,
+          "rule_handle": null,
+          "expr_addr": null,
+          "chain_addr": "0xffff8dd9b1400000",
+          "chain_depth": 0,
+          "cpu_id": 2,
+          "comm": "nc",
+          "hook": 1,
+          "pf": 2
+        }
+      ],
+      "all_events_count": 5
+    }
+  ]
+}

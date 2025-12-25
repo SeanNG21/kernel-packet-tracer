@@ -1,0 +1,15 @@
+Category,Metric,Value,Description
+Detection,Detection Accuracy,100.00%,Overall detection accuracy
+Detection,Detection Latency,0.00ms,Time from attack start to first DROP detection
+Detection,False Positive,NO,Legitimate traffic flagged as anomaly
+Data Quality,DROP Record Completeness,0.00%,Records with complete information
+Traffic,Total Packets Sent,650,Total packets transmitted
+Traffic,Packets Detected,18172,Packets successfully detected
+Traffic,Unique Source IPs,0,Number of distinct source IPs
+Firewall,DROP Detection Rate,100.00%,500 / 500 expected
+Firewall,ACCEPT Detection Rate,100.00%,150 / 150 expected
+Validation,Nftables DROP Counter,500,Nftables-reported DROP count
+Validation,Nftables ACCEPT Counter,150,Nftables-reported ACCEPT count
+Performance,CPU Usage (Avg),0.00%,Average CPU utilization
+Performance,CPU Usage (Max),0.00%,Peak CPU utilization
+Performance,Execution Time,44.07s,Total test duration
